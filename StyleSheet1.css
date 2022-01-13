@@ -1,0 +1,43 @@
+﻿* {
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div.header{
+    width: 1440px;
+    height: 768px;
+    background-image: url("file:///C:\Users\HP\source\repos\HTML_studying\bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+img{
+    background-position: center center;
+}
+h1{
+    font-family: BebasNeueBold, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 5.71px;
+    text-transform: uppercase;
+}
+h3{
+    font-family: Open sans, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+h4{
+    font-family: Open sans, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 3.7px;
+    text-transform: uppercase;
+}
