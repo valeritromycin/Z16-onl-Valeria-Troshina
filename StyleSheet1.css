@@ -11,7 +11,7 @@
 }
 
 .container {
-    width: 1200px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -32,16 +32,62 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
+h2 {
     font-family: Open sans, sans-serif;
     font-size: 16px;
     text-align: center;
 }
 
-h4 {
+h3 {
     font-family: Open sans, sans-serif;
     font-size: 11px;
     text-align: center;
     letter-spacing: 3.7px;
     text-transform: uppercase;
+}
+
+.menu-bar {
+    width: 1440px;
+    height: 65px;
+    border-width: 1px;
+    border-color: #E6E6E6;
+
+}
+.menu-bar li{
+    display: inline-block;
+    font-family: Open Sans, sans-serif;
+    font-size: 12px;
+    color: #48555B;
+    letter-spacing: 1.09px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.our-story{
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #48555B;
+    letter-spacing: 2.31px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.line {
+    width: 50px;
+    height: 2px;
+    border-width: 2px;
+    border-bottom-color: #00A4E5;
+}
+.section{
+    width: 405px;
+    height: 81px;
+}
+
+.section h1{
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #48555B;
+    letter-spacing: 0.1875px;
+    text-transform: capitalize;
+    text-align: left;
 }
