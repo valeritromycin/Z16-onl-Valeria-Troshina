@@ -11,8 +11,10 @@
 }
 
 .container {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
+    color: #48555B;
+    font-family: Open Sans, sans-serif;
 }
 
 div.header {
@@ -51,19 +53,22 @@ h3 {
     height: 65px;
     border-width: 1px;
     border-color: #E6E6E6;
+    border-style: solid;
 
 }
 .menu-bar li{
     display: inline-block;
-    font-family: Open Sans, sans-serif;
     font-size: 12px;
     color: #48555B;
     letter-spacing: 1.09px;
     text-transform: uppercase;
     text-decoration: none;
 }
-.our-story{
-    font-family: Open Sans, sans-serif;
+div.our-story{
+    width: 941px;
+    height: 344px;
+}
+p.our-story{
     font-size: 18px;
     font-weight: bold;
     color: #48555B;
@@ -71,23 +76,263 @@ h3 {
     text-transform: uppercase;
     text-align: center;
 }
-.line {
-    width: 50px;
-    height: 2px;
-    border-width: 2px;
-    border-bottom-color: #00A4E5;
-}
-.section{
+/*.line {*/
+/*    width: 50px;*/
+/*    height: 2px;*/
+/*    border-width: 2px;*/
+/*    border-bottom-color: #00A4E5;}*/
+
+.foundation{
     width: 405px;
     height: 81px;
 }
 
-.section h1{
-    font-family: Open Sans, sans-serif;
+.foundation h1{
     font-size: 20px;
     font-weight: bold;
     color: #48555B;
     letter-spacing: 0.1875px;
     text-transform: capitalize;
     text-align: left;
+    line-height: 27.24px;
+}
+.foundation p{
+    line-height: 23px;
+    width: 405.08px;
+    height: 115px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #48555B;
+    letter-spacing: 0.1875px;
+    text-align: left;
+}
+.we li{
+    display: inline-block;
+    float: right;
+}
+.we h1{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    top: 15px;
+    left: 14px;
+    text-align: left;
+    letter-spacing: 0.19px;
+}
+.we section{
+    width: 140px;
+    height: 224px;
+    padding-left: 23px;
+    padding-top: 23px;
+    margin: 14px;
+}
+.we-plan{
+    background-image: url("assets/Bitmap.jpg");
+    padding: ;
+}
+.we-manage{
+    background-image: url("assets/Bitmap (1).jpg");
+}
+.we-build{
+    background-image: url("assets/Bitmap (2).jpg");
+}
+.services{
+    width: 940px;
+    margin: 0 auto;
+    height: 446px;
+    top: 1353px;
+}
+.all-services{
+    display: inline;
+}
+.services h1{
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #48555B;
+}
+.services p{
+    width: 405.4px;
+    height: 38px;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: left;
+    color: #48555B;
+}
+.services a{
+    float: right;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #00A4E5;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.service li{
+    display: inline-block;
+    width: 295px;
+    height: 330px;
+    border-width: 1px;
+    border-color: #E6E6E6;
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;
+}
+.service li h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #48555B;
+    letter-spacing: 0.43px;
+    text-align: left;
+
+}
+.service li p{
+    width: 250px;
+    height: 92px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #48555B;
+    letter-spacing: 0.19px;
+    text-align: left;
+}
+.get-in-touch{
+    width: 1440px;
+    height: 499px;
+    top: 1914px;
+    background-color: #48555B;
+    background-image: url("assets/bg (1).jpg");
+}
+.get-in-touch h1{
+    width: 350px;
+    height: 72px;
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: initial;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #48555B;
+}
+.get-in-touch a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.email{
+    top: 2412px;
+    width: 1440px;
+    height: 100px;
+    background-color: #171819;
+}
+.email h1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.96px;
+    letter-spacing: 0.85px;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: none;
+}
+.email ul{
+    display: inline-block;
+}
+.email a{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #00A4E5;
+    border: solid;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    line-height: 17.7px;
+}
+.footer{
+    width: 1440px;
+    height: 240px;
+    background-color: #141A20;
+    font-family: Open Sans, sans-serif;
+    color: #FFFFFF;
+}
+.all-lists{
+    display: inline-block;
+}
+.company{
+    width: 250px;
+    height: 148px;
+}
+.company h1{
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    line-height: 14.98px;
+}
+.company img{
+    width: 101.86px;
+    height: 20.99px;
+}
+.links{
+    width: 262px;
+    height: 150px;
+}
+.links h1 {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    line-height: 14.98px;
+}
+.links a{
+    text-transform: none;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.85px;
+}
+.contact{
+    width: 141px;
+    height: 158px;
+}
+.contact h1 {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    line-height: 14.98px;
+}
+.socials{
+    width: 87px;
+    height: 13px;
+    display: inline;
+}
+.socials img{
+    width: 12.04px;
+    height: 12.04px;
+}
+.copyright{
+    width: 1440px;
+    height: 60px;
+    background-color: #171819;
+    font-family: Open Sans, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.85px;
+    line-height: 14.98px;
+    text-align: center;
 }
